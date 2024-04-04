@@ -97,6 +97,11 @@ public class notas {
 			}
 		}
 	}
+	
+	//Método para calcular promedio
+	public double calculaPromedio() {
+		return (uf1 + uf2 + uf3) / 3.0;
+	}
 			
 	/**
 	 * Metodo principal donde se instancia la clase Notas y se ejecutan los metodos
