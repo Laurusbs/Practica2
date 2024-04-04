@@ -28,6 +28,11 @@ public class notas {
 		
 		System.out.print("Ingrese nota 3: "); //Mensaje para solicitar la nota 3
 		uf3= entrada.nextDouble(); //Captura de la nota 3
+		// Validación de notas dentro del rango permitido (0-10)
+        if (uf1 < 0 || uf1 > 10 || uf2 < 0 || uf2 > 10 || uf3 < 0 || uf3 > 10) {
+            System.out.println("Error: Las notas deben estar en el rango de 0 a 10.");
+            System.exit(1); // Salir del programa si hay error
+        }
 	}
 		
 	/**
